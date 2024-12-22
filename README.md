@@ -28,10 +28,17 @@ The main objectives of this project are:
 
 1. **Analyze the text corpus**: Extract key characteristics such as average size, word types, most frequent words, and stopwords.
 
-2. **Select Topic Modeling/Clustering methodologies**: Choose two algorithms to apply on the dataset for topic extraction.
+2. **Select Topic Modeling methodology**: Use the Latent Dirichlet Allocation (LDA) algorithm to extract topics from the dataset.
 
-3. **Define metrics for model evaluation**: Develop appropriate metrics to assess the quality of the models.
+3. **Define metrics for model evaluation**: Develop appropriate metrics to assess the quality of the LDA model.
 
-4. **Perform comparative tests**: Compare the performance of the selected algorithms and determine which one best models the data.
+4. **Conclude on the methodology**: Evaluate the effectiveness of the LDA model and propose ways to improve the analysis.
 
 5. **Conclude on the best methodology**: Identify the best methodology for topic modeling and propose ways to improve the analysis.
+
+   ## LDA Output Example
+
+After applying the LDA algorithm to the dataset, we obtain the following result for **Topic 1** (13.9% of tokens). The **Top-20 Most Relevant Terms** for Topic 1 are:
+
+![image](https://github.com/user-attachments/assets/5f9d2636-7485-44b5-b390-3ed0acc044ad)
+
