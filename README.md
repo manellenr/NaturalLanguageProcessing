@@ -36,9 +36,15 @@ The main objectives of this project are:
 
 5. **Conclude on the best methodology**: Identify the best methodology for topic modeling and propose ways to improve the analysis.
 
-   ## LDA Output Example
+## LDA Output Example
 
-After applying the LDA algorithm to the dataset, we obtain the following result for **Topic 1** (13.9% of tokens). The **Top-20 Most Relevant Terms** for Topic 1 are:
+After applying the LDA algorithm to the dataset, we obtained the following result for the **Top-20 Most Relevant Terms**:
 
 ![image](https://github.com/user-attachments/assets/5f9d2636-7485-44b5-b390-3ed0acc044ad)
+
+These terms represent the most relevant words within the selected topic, reflecting the main themes discussed in the news articles related to this topic.
+
+The **Top-20 Most Salient Terms** are as follows:
+
+![image](https://github.com/user-attachments/assets/37cbe7a2-9e28-4c11-aa50-c0dfd8c7a466)
 
