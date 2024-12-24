@@ -35,8 +35,6 @@ The main objectives of this project are:
 
 4. **Conclude on the methodology**: Evaluate the effectiveness of the LDA model and propose ways to improve the analysis.
 
-5. **Conclude on the best methodology**: Identify the best methodology for topic modeling and propose ways to improve the analysis.
-
 ## LDA Output Example
 
 After applying the LDA algorithm to the dataset, we obtained the following result for the **Top-20 Most Relevant Terms**:
