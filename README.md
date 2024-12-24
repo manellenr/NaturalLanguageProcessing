@@ -2,7 +2,8 @@
 
 ## Overview
 
-This project involves performing Topic Modeling on the `News_Category_Dataset_v3.json`, a dataset containing around 210,000 news headlines from 2012 to 2022 from HuffPost. This dataset can be used as a benchmark for a variety of computational linguistic tasks. Due to changes in the HuffPost website, the dataset includes approximately 200,000 headlines from 2012 to May 2018 and 10,000 headlines from May 2018 to 2022.
+This project involves performing Topic Modeling on the `News_Category_Dataset_v3.json`, a dataset containing around 210,000 news headlines from 2012 to 2022 from HuffPost. This dataset can be used as a benchmark for a variety of computational linguistic tasks. Due to changes in the HuffPost website, the dataset includes approximately 200,000 headlines from 2012 to May 2018 and 10,000 headlines from May 2018 to 2022. You can access the dataset [here](https://www.kaggle.com/datasets/rmisra/news-category-dataset).
+
 
 The objective is to study the performance of Topic Modeling algorithms on this dataset and identify meaningful insights related to the content of the news articles.
 
