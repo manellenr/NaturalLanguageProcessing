@@ -26,7 +26,7 @@ The dataset consists of news articles with the following attributes:
 
 The main objectives of this project are:
 
-1. **Analyze the text corpus**: Extract key characteristics such as average size, word types, most frequent words, and stopwords.
+1. **Analyze the text corpus**: Extract key features such as average size, word types, most frequent words and empty words.
 
 2. **Select Topic Modeling methodology**: Use the Latent Dirichlet Allocation (LDA) algorithm to extract topics from the dataset.
 
