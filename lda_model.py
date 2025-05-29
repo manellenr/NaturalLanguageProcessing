@@ -14,7 +14,6 @@ class LDAModeler:
         self.lda_model = None
 
     def preprocess(self, no_below=2, no_above=0.5, keep_n=5000):
-        """Creates dictionary and Bag-of-Words (BoW) corpus."""
         self.dictionary = Dictionary(self.texts)
         self.dictionary.filter_extremes(no_below=no_below, no_above=no_above, keep_n=keep_n)
 
@@ -28,7 +27,6 @@ class LDAModeler:
             raise ValueError("The Bag-of-Words (BoW) corpus is empty.")
 
     def train_lda(self, num_topics=10, passes=10):
-        """Trains the LDA model."""
         if not self.bow_corpus or not self.dictionary:
             raise ValueError("Preprocess the texts before training the LDA model.")
 
@@ -38,7 +36,6 @@ class LDAModeler:
         print("LDA model training completed.")
 
     def get_topics(self):
-        """Retrieves topics from the trained LDA model."""
         if not self.lda_model:
             raise ValueError("Train the LDA model before getting topics.")
 
@@ -49,7 +46,6 @@ class LDAModeler:
         return topics
 
     def compute_coherence(self):
-        """Computes the coherence score of the LDA model."""
         if not self.lda_model:
             raise ValueError("Train the LDA model before computing coherence.")
 
@@ -59,7 +55,6 @@ class LDAModeler:
         return coherence_lda
 
     def visualize(self):
-        """Visualizes the LDA model using pyLDAvis."""
         if not self.lda_model or not self.bow_corpus:
             raise ValueError("Train the LDA model and preprocess the texts before visualization.")
 
@@ -67,7 +62,6 @@ class LDAModeler:
         return vis
 
     def extract_topic_words(self, top_n=10):
-        """Extracts words for each topic and organizes them in a DataFrame."""
         topics = self.get_topics()
         all_topic_model = []
 
